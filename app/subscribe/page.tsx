@@ -73,7 +73,7 @@ export default function Subscribe() {
               </div>
 
               {/* Subscription Form */}
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6" netlify>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
                     Email Address
@@ -139,4 +139,5 @@ export default function Subscribe() {
       </div>
     </div>
   );
+
 }
